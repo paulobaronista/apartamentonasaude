@@ -1,0 +1,298 @@
+/* Google Web Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+    background: #3a4937;
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+	form {
+		width: 100%;
+	}
+	.group-form {
+        background: #f8d72f;
+		padding-bottom: 15px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+	form .tt-form {
+		background-color: #323232;
+		width: 100%;
+		padding: 10px 0;
+		float: left;
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-top-right-radius: 0px;
+		-moz-border-radius-topleft: 0px;
+		-moz-border-radius-topright: 0px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		margin-bottom: 10px;
+	}
+    form .tt-form p {
+        color: #FFF;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #home .form {
+        padding: 0px 0 0 0;
+    }
+    #home .form .envia {
+        background-color: #323232;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        padding: 7px 30px; 
+    }
+    #home .form .form-control {
+        border: 1px solid #323232;
+    }
+    #home .form label {
+        color: #323232;
+    }
+    .padding-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+	form {
+		width: 100%;
+	}
+	.group-form {
+        background: #f8d72f;
+		padding-bottom: 15px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+	}
+	form .tt-form {
+		background-color: #323232;
+		width: 100%;
+		padding: 10px 0;
+		float: left;
+		-webkit-border-top-left-radius: 20px;
+		-webkit-border-top-right-radius: 20px;
+		-moz-border-radius-topleft: 20px;
+		-moz-border-radius-topright: 20px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		margin-bottom: 10px;
+	}
+    form .tt-form p {
+        color: #FFF;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #home .form {
+        padding: 0px 0 0 0;
+    }
+    #home .form .envia {
+        background-color: #323232;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        padding: 7px 30px; 
+    }
+    #home .form .form-control {
+        border: 1px solid #323232;
+    }
+    #home .form label {
+        color: #323232;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+	form {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.group-form {
+        background: #f8d72f;
+		padding-bottom: 15px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+	}
+	form .tt-form {
+		background-color: #323232;
+		width: 100%;
+		padding: 10px 0;
+		float: left;
+		-webkit-border-top-left-radius: 20px;
+		-webkit-border-top-right-radius: 20px;
+		-moz-border-radius-topleft: 20px;
+		-moz-border-radius-topright: 20px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		margin-bottom: 10px;
+	}
+    form .tt-form p {
+        color: #FFF;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #home .form {
+        padding: 25px 0 0 0;
+    }
+    #home .form .envia {
+        background-color: #323232;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        padding: 7px 30px; 
+    }
+    #home .form .form-control {
+        border: 1px solid #323232;
+    }
+    #home .form label {
+        color: #323232;
+    }
+}
+/* Large */
+@media(min-width:1200px){
+	form {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.group-form {
+        background: #f8d72f;
+		padding-bottom: 15px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+	}
+	form .tt-form {
+		background-color: #323232;
+		width: 100%;
+		padding: 10px 0;
+		float: left;
+		-webkit-border-top-left-radius: 20px;
+		-webkit-border-top-right-radius: 20px;
+		-moz-border-radius-topleft: 20px;
+		-moz-border-radius-topright: 20px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		margin-bottom: 10px;
+	}
+    form .tt-form p {
+        color: #FFF;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #home .form {
+        padding: 50px 0 0 0;
+    }
+    #home .form .envia {
+        background-color: #323232;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        padding: 7px 30px; 
+    }
+    #home .form .form-control {
+        border: 1px solid #323232;
+    }
+    #home .form label {
+        color: #323232;
+    }
+}
+.margin-top { margin-top: 10px; }
+.margin-top-5 { margin-top: 5px; }
+.margin-top-15 { margin-top: 15px; }
+.margin-top-20 { margin-top: 20px; }
+.margin-top-27 { margin-top: 27px; }
+.margin-top-30 { margin-top: 30px; }
+.margin-top-40 { margin-top: 40px; }
+.margin-top-50 { margin-top: 50px; }
+.margin-top-54 { margin-top: 54px; }
+.margin-top-60 { margin-top: 60px; }
+.margin-top-65 { margin-top: 65px; }
+.margin-top-70 { margin-top: 70px; }
+.margin-top-80 { margin-top: 80px; }
+.margin-top-90 { margin-top: 90px; }
+.margin-top-99 { margin-top: 99px; }
+.margin-top-100 { margin-top: 100px; }
+.margin-top-110 { margin-top: 110px; }
+.margin-top-120 { margin-top: 120px; }
+.margin-top-140 { margin-top: 140px; }
+.margin-top-149 { margin-top: 149px; }
+.margin-top-150 { margin-top: 150px; }
+.margin-top-160 { margin-top: 160px; }
+.margin-top-200 { margin-top: 200px; }
+.margin-top-220 { margin-top: 220px; }
+.margin-top-230 { margin-top: 230px; }
+.margin-top-250 { margin-top: 250px; }
+.margin-top-330 { margin-top: 330px; }
+.margin-top-350 { margin-top: 350px; }
+.margin-top-380 { margin-top: 380px; }
+.margin-top-385 { margin-top: 385px; }
+.margin-top-390 { margin-top: 390px; }
+.margin-top-400 { margin-top: 400px; }
+
+.container-off-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.row-off-margin {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.form-group {
+	margin-bottom: 5px;
+	padding: 0 10px;
+}
+label {
+	margin-bottom: 1px;
+	font-size: 13px;
+}
+form label {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+    color: #3d3e50;
+}
+form button {
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+form .enviar {
+	width: 95%;
+	margin-top: 5px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	background-color: #3d3e50;
+    
+}
+form .enviar:hover, form .enviar:focus {
+	color: #ddd;
+}
+.txt-resposta {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 40% 5% 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.faixa {
+    text-align: center;
+    background-color: #e6b548;
+    color: #3a4937;
+}
